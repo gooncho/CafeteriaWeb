@@ -1,0 +1,65 @@
+:root{
+    font-family: 'Press Start 2P', monospace;
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+}
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+#root, #__next {
+    isolation: isolate;
+}
+
+.menu{
+    display: flex;
+    height: 10vh;
+    justify-content: space-between;
+    border-bottom: 4px solid #000;
+
+}
+.encabezado_titulo{
+    margin-left: 20px;
+    font-weight: bold;
+}
+.logo{
+    display: flex;
+    height: 10vh;
+}
+.enlaces{
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+.links{
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 30px;
+    color:black
+}
+
