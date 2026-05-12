@@ -301,12 +301,14 @@ a{
 }
 
 .oferta-precio {
+    gap:10px;
     font-size: 28px;
     font-weight: 700;
     color: #c9834a;
 }
 
 .oferta-boton {
+    margin-left:10px;
     flex: 1;
     padding: 11px 16px;
     background: #c9834a;
@@ -463,4 +465,27 @@ a{
     border-radius: 999px;
     font-size: 13px;
     color: #faf8f4;
+}
+
+.catalogo {
+    padding: 60px 40px;
+    background-color: #1a1008;
+}
+
+.catalogo h2 {
+    color: #faf8f4;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.catalogo p {
+    color: #a8907e;
+    font-size: 16px;
+    margin-bottom: 36px;
+}
+
+.catalogo-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
 }
