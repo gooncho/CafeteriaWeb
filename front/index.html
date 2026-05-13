@@ -1,192 +1,148 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Cafeteria Web</title>
-
+    <title>Moffee</title>
     <link rel="stylesheet" href="dist/CSS/style.css">
-    <link rel="stylesheet" href="dist/CSS/movil.css">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
+<body> 
 
-<body>
-<header>
+<header> 
     <section class="menu">
-
         <div class="logo_contenedor">
-            <img class="logo" src="dist/assets/logo_pag.png">
-
-            <div class="encabezado_titulo">
-                <h1>Moffee</h1>
-            </div>
+            <img class="logo" src="dist/assets/logo_pag.png" alt="logo">
+            <div class="encabezado_titulo"><h1>Moffee</h1></div>
         </div>
-
-        <nav class="enlaces">
+        <section class="enlaces">
             <a class="links" href="index.html">Inicio</a>
             <a class="links" href="">Ofertas Especiales</a>
             <a class="links" href="">Productos</a>
             <a class="links" href="">Nosotros</a>
-        </nav>
-        <nav class = "derecha">
-            <a class="iconos_der" href="index.html">
-                <img src="dist/assets/contacto.png">
-            </a>
-
-            <a class="iconos_der" href="dist/paginas/cartas_menu.html">
-                <img src="dist/assets/carrito.png">
-            </a>
-
+        </section>
+        <div class="derecha">
+            <a class="iconos_der" href="index.html"><img src="dist/assets/contacto.png" alt="contacto"></a>
+            <a class="iconos_der" href="dist/paginas/cartas_menu.html"><img src="dist/assets/carrito.png" alt="carrito"></a>
             <a class="link_sesion" href="dist/paginas/index.html">Iniciar Sesión</a>
-        </nav>
-
+        </div>
     </section>
 </header>
+
 <main>
+
     <section class="hero">
-        <div class="hero_texto">
-            <h2>La mejor tienda de café online de Uruguay</h2>
-            <p>Banca 5 que me tomo un cafe...</p>
-            <a href="dist/paginas/cartas_menu.html">
-                <button class="hero_boton">Ver Menú</button>
-            </a>
-                <button class="hero_sesionBoton">Iniciar Sesión</button>
-            
-        </div>
-        <div class="hero_imagen">
-            <img src="dist/assets/logo_hero.png">
+        <span class="hero-label">Bienvenidos a</span>
+        <h2>Moffee</h2>
+        <p>La mejor tienda de café online de Uruguay</p>
+        <div class="hero-botones">
+            <a href="dist/paginas/cartas_menu.html"><button class="hero_boton">Ver Menú</button></a>
+            <button class="hero_sesionBoton">Iniciar Sesión</button>
         </div>
     </section>
 
-<section class="productos-populares">
-<h2>Nuestros productos más populares</h2>
-<p>Los productos que nuestros clientes más aman</p>
+    <section class="historia">
+        <div class="historia-texto">
+            <span class="etiqueta">Descubrí</span>
+            <h2>Nuestra Historia</h2>
+            <p>Desde granos cuidadosamente seleccionados hasta la última gota en tu taza, en Moffee nos apasiona el café. Nacimos con la misión de traerte la mejor experiencia cafetera, directo a tu puerta.</p>
+            <a class="historia-link" href="">Conocé más</a>
+        </div>
+        <div class="historia-grid">
+            <div class="historia-grid-item"><img src="dist/assets/leche-con-chocolate.png" alt="Chocolate Caliente"></div>
+            <div class="historia-grid-item"><img src="dist/assets/cafe-para-llevar.png" alt="Café"></div>
+            <div class="historia-grid-item ancho">
+        </div>
+    </section>
 
-<div class="contenedor-sabores">
+    <section class="banda">
+        <span class="etiqueta">Explorá</span>
+        <h2>Nuestros Productos</h2>
+        <a class="banda-link" href="dist/paginas/cartas_menu.html">Ver todo el menú</a>
+    </section>
 
-    <div class="sabor-cartel">
-    <img class="sabor-imagen" src="dist/assets/leche-con-chocolate.png">
-    <div class="sabor-cuerpo">
-        <div class="sabor-nombre">CHOCOLATE CALIENTE</div>
-        <div class="sabor-precio">$1200</div>
-        <button class="sabor-boton">AGREGAR AL CARRITO</button>
-    </div>
-    </div>
+    <section class="menu-seccion">
+        <div class="menu-grid">
+            <div class="menu-imagen-caja"><img src="dist/assets/leche-con-chocolate.png" alt="Chocolate Caliente"></div>
+            <div class="menu-imagen-caja"><img src="dist/assets/cafe-para-llevar.png" alt="Café para llevar"></div>
+            <div class="menu-imagen-caja"><img src="dist/assets/te-matcha.png" alt="Té Matcha"></div>
+            <div class="menu-imagen-caja"><img src="dist/assets/frappe.png" alt="Frappe"></div>
+        </div>
+        <div class="menu-texto">
+            <span class="etiqueta">Elegí</span>
+            <h2>Nuestro Menú</h2>
+            <p>Los productos que nuestros clientes más aman, preparados con los mejores ingredientes para darte una experiencia única.</p>
+            <div>
+                <div class="menu-item">
+                    <span class="menu-item-nombre">Chocolate Caliente</span>
+                    <span class="menu-item-precio">$1200</span>
+                </div>
+                <div class="menu-item">
+                    <span class="menu-item-nombre">Café Caliente para Llevar</span>
+                    <span class="menu-item-precio">$1100</span>
+                </div>
+                <div class="menu-item">
+                    <span class="menu-item-nombre">Té Matcha</span>
+                    <span class="menu-item-precio">$1300</span>
+                </div>
+                <div class="menu-item">
+                    <span class="menu-item-nombre">Frappe</span>
+                    <span class="menu-item-precio">$1200</span>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <div class="sabor-cartel destacado">
-    <img class="sabor-imagen" src="dist/assets/cafe-para-llevar.png">
-    <div class="sabor-cuerpo">
-        <div class="sabor-nombre">CAFE CALIENTE PARA LLEVAR</div>
-        <div class="sabor-precio">$1100</div>
-        <button class="sabor-boton">AGREGAR AL CARRITO</button>
-    </div>
-    </div>
-
-    <div class="sabor-cartel">
-    <img class="sabor-imagen" src="dist/assets/te-matcha.png">
-    <div class="sabor-cuerpo">
-        <div class="sabor-nombre">TE MATCHA</div>
-        <div class="sabor-precio">$1300</div>
-        <button class="sabor-boton">AGREGAR AL CARRITO</button>
-    </div>
-    </div>
-
-    <div class="sabor-cartel">
-    <img class="sabor-imagen" src="dist/assets/frappe.png">
-    <div class="sabor-cuerpo">
-        <div class="sabor-nombre">FRAPPE</div>
-        <div class="sabor-precio">$1200</div>
-        <button class="sabor-boton">AGREGAR AL CARRITO</button>
-    </div>
-    </div>
-</div>
-</section>
-<hr>
-<section class="ofertas-especiales">
-    <div class="ofertas-especiales-cabecera">
+    <section class="banda-oferta">
+        <span class="etiqueta">Aprovechá</span>
         <h2>Ofertas Especiales</h2>
-        <p>¡Aprovechá nuestras promociones antes de que se acaben!</p>
-    </div>
+        <p>¡No te pierdas nuestras promociones antes de que se acaben! Combos pensados especialmente para vos.</p>
+        <button class="banda-oferta-boton">Ver Combos</button>
+    </section>
 
-    <div class="contenedor-ofertas">
-        <div class="oferta-cartel">
-            <div class="oferta-cuadro">
-                <img class="oferta-imagen" src="dist/assets/oferta1.fondo.png">
-            </div>
-            <div class="oferta-cuerpo">
-                <div class="oferta-nombre">Combo Desayuno</div>
-                <div class="oferta-titulo">El arranque perfecto</div>
-                <div class="oferta-descripcion">Café y medialunas son todo lo que necesitás para empezar el día con energía.</div>
-                <div class="oferta-footer">
-                    <div class="oferta-precio">$2500</div>
-                    <button class="oferta-boton">AGREGAR AL CARRITO</button>
+    <section class="contenedor-calidad">
+        <div class="calidad-imagen">
+            <img src="dist/assets/calidad-img.png" alt="Calidad">
+        </div>
+        <div class="calidad-cuadro">
+            <span class="etiqueta">Conocé</span>
+            <h2>Nuestro Compromiso con la Calidad</h2>
+            <p>Cada etapa de la preparación de café es crucial para garantizar la mejor experiencia en tu taza.</p>
+            <div class="calidad-cuerpo">
+                <div class="calidad-caracteristicas">
+                    <div class="calidad-icono"><img src="dist/assets/granos-cafe.png" alt="granos"></div>
+                    <div>
+                        <strong class="calidad-nombre">Ingredientes de Calidad</strong>
+                        <p class="calidad-descripcion">Granos seleccionados y leche fresca en cada preparación.</p>
+                    </div>
+                </div>
+                <div class="calidad-caracteristicas">
+                    <div class="calidad-icono"><img src="dist/assets/disenio-cafe.png" alt="diseño"></div>
+                    <div>
+                        <strong class="calidad-nombre">Mejor Diseño</strong>
+                        <p class="calidad-descripcion">Trabajamos para brindarte una gran experiencia.</p>
+                    </div>
+                </div>
+                <div class="calidad-caracteristicas">
+                    <div class="calidad-icono"><img src="dist/assets/maquina-de-cafe.png" alt="máquina"></div>
+                    <div>
+                        <strong class="calidad-nombre">Calidad Premium</strong>
+                        <p class="calidad-descripcion">Un café de primera para nuestros clientes.</p>
+                    </div>
+                </div>
+                <div class="calidad-caracteristicas">
+                    <div class="calidad-icono"><img src="dist/assets/taza-de-cafe.png" alt="taza"></div>
+                    <div>
+                        <strong class="calidad-nombre">El Mejor Material</strong>
+                        <p class="calidad-descripcion">Productos elaborados con materiales premium.</p>
+                    </div>
                 </div>
             </div>
         </div>
+    </section>
 
-        <div class="oferta-cartel destacado">
-            <div class="oferta-cuadro">
-                <img class="oferta-imagen" src="dist/assets/oferta2.fondo.png">
-            </div>
-            <div class="oferta-cuerpo">
-                <div class="oferta-nombre">Combo Merienda</div>
-                <div class="oferta-titulo">La pausa que merecés</div>
-                <div class="oferta-descripcion">Cafe, un revuelto y un brownie es lo recomendado por los doctores para recargar energías por la tarde.</div>
-                <div class="oferta-footer">
-                    <div class="oferta-precio">$3000</div>
-                    <button class="oferta-boton">AGREGAR AL CARRITO</button>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<hr>
-
-<section class="contenedor-calidad">
-    <div class="calidad-imagen">
-    <img src="dist/assets/calidad-img.png">
-    </div>
-
-    <div class="calidad-cuadro">
-    <div class="calidad-cabecera">
-        <h2>Nos preocupamos por la calidad de nuestros productos</h2>
-        <p>Cada etapa de la preparación de café es crucial para nosotros para garantizar la mejor experiencia.</p>
-    </div>
-
-    <div class="calidad-cuerpo">
-        <div class="calidad-caracteristicas">
-        <div class="calidad-icono"><img src="dist/assets/granos-cafe.png"></div>
-        <div>
-            <strong class="calidad-nombre">Ingredientes de Calidad</strong>
-            <p class="calidad-descripcion">Desde granos de café seleccionados hasta leche fresca, cada ingrediente es elegido con cuidado.</p>
-        </div>
-        </div>
-        <div class="calidad-caracteristicas">
-        <div class="calidad-icono"><img src="dist/assets/disenio-cafe.png"></div>
-        <div>
-            <strong class="calidad-nombre">Mejor diseño de producto</strong>
-            <p class="calidad-descripcion">Trabajamos mucho para brindar una gran experiencia.</p>
-        </div>
-        </div>
-        <div class="calidad-caracteristicas">
-        <div class="calidad-icono"><img src="dist/assets/maquina-de-cafe.png"></div>
-        <div>
-            <strong class="calidad-nombre">Calidad premium</strong>
-            <p class="calidad-descripcion">Un café de primera calidad es lo que merecen nuestros clientes.</p>
-        </div>
-        </div>
-        <div class="calidad-caracteristicas">
-        <div class="calidad-icono"><img src="dist/assets/taza-de-cafe.png"></div>
-        <div>
-            <strong class="calidad-nombre">El mejor material</strong>
-            <p class="calidad-descripcion">Nuestros productos son elaborados con materiales premium.</p>
-        </div>
-        </div>
-    </div>
-    </div>
-</section>
 </main>
+
 <footer>
     <div class="footer-contenedor">
         <div class="footer-seccion">
@@ -194,25 +150,28 @@
             <p>¿Tenés alguna pregunta o querés saber más sobre nuestros productos? No dudes en contactarnos.</p>
             <a href="index.html" class="footer-boton">Enviar mensaje</a>
         </div>
-
         <div class="footer-seccion">
-            <h2>Seguinos en redes sociales</h2>
-            <p>¡No te pierdas nuestras últimas noticias y ofertas! Seguinos en nuestras redes sociales.</p>
+            <h2>Seguinos en redes</h2>
+            <p>¡No te pierdas nuestras últimas noticias y ofertas especiales!</p>
             <div class="footer-redes">
-                <a href="index.html"><img src="dist/assets/facebook.png"></a>
-                <a href="index.html"><img src="dist/assets/tik-tok.png"></a>
-                <a href="index.html"><img src="dist/assets/instagram.png"></a>
+                <a href="index.html"><img src="dist/assets/facebook.png" alt="Facebook"></a>
+                <a href="index.html"><img src="dist/assets/tik-tok.png" alt="TikTok"></a>
+                <a href="index.html"><img src="dist/assets/instagram.png" alt="Instagram"></a>
             </div>
         </div>
-
         <div class="footer-seccion">
             <h2>Últimas noticias</h2>
-            <p>Recibí notificaciones sobre las últimas noticias y ofertas directamente a tu mail.</p>
+            <p>Recibí notificaciones sobre nuestras ofertas directamente a tu mail.</p>
             <form class="footer-formulario">
                 <input type="email" placeholder="Tu correo electrónico">
                 <button type="submit" class="footer-boton">Suscribirse</button>
             </form>
         </div>
     </div>
+    <div class="footer-bottom">
+        <p>© 2025 Moffee — Todos los derechos reservados</p>
+    </div>
+</footer>
+
 </body>
 </html>
